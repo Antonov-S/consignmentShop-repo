@@ -12,3 +12,22 @@ Requirements:
 4. Commissions can change
 5. Track how much to pay the vendor
 6. Track how much to pay the store
+
+
+Vendor:
+FirstName - string
+LastName - string
+Commission - double
+
+Item:
+Title - string
+Description - string
+Price - decimal
+Sold - boolean
+PaymentDistributed - boolean
+Owner - Vendor
+
+Store:
+Name - string
+Vendors - Vendor
+Items - Item
